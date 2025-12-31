@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Restclient" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Couleurs primaires - exactes de l'image -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        
+        <!-- Couleurs secondaires -->
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        
+        <!-- Couleurs de surface -->
+        <item name="colorSurface">@color/dialog_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Couleurs d'arrière-plan - exactes de l'image -->
+        <item name="android:colorBackground">@color/header_background</item>
+        <item name="colorOnBackground">@color/text_on_primary</item>
+        
+        <!-- Couleurs d'erreur -->
+        <item name="colorError">@color/button_delete</item>
+        <item name="colorOnError">@color/text_on_primary</item>
+        
+        <!-- Statut bar - exacte de l'image -->
+        <item name="android:statusBarColor">@color/header_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Couleurs spécifiques du design -->
+        <item name="android:windowBackground">@color/header_background</item>
+    </style>
+</resources>
